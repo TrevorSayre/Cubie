@@ -3,50 +3,71 @@
 A Rubik's Cube tool for playing, viewing, solving, and generating solutions and
 scrambles.
 
-[Cubie](https://www.jaapsch.net/puzzles/cubie.htm)
-
-[Jaap's Puzzle Page](http://www.jaapsch.net/puzzles/)
+- [Cubie](https://www.jaapsch.net/puzzles/cubie.htm)
+- [Jaap's Puzzle Page](http://www.jaapsch.net/puzzles/)
 
 Written by Jaap Scherphuis © 2003, 2004, 2018.
 
+## Table of Contents <!-- omit in toc -->
+
+- [Features](#features)
+- [Build Instructions](#build-instructions)
+  - [Install Java 6 on macOS](#install-java-6-on-macos)
+  - [Build Cubie](#build-cubie)
+- [Usage Instructions](#usage-instructions)
+  - [Playing](#playing)
+  - [Viewing](#viewing)
+  - [Solving (Normal)](#solving-normal)
+  - [Solution / Generator](#solution--generator)
+  - [Playback](#playback)
+  - [Supergroup](#supergroup)
+  - [Editing](#editing)
+  - [Inputting](#inputting)
+  - [Subgroups](#subgroups)
+  - [Indicators](#indicators)
+  - [Solving (Subgroups)](#solving-subgroups)
+  - [Symmetry Type](#symmetry-type)
+  - [Rotating / Reflecting](#rotating--reflecting)
+  - [Random Symmetric Patterns](#random-symmetric-patterns)
+  - [Random Pretty Patterns](#random-pretty-patterns)
+
 ## Features
 
-* The cube is fully playable. Middle slices can be turned, as well as the whole
-  cube.
-* The cube can be viewed in four ways, such as a fully 3D model, or as a flat
-  layout. The view can be switched at any time.
-* It has a powerful built-in solver. It uses a simplified version of the
-  two-phase algorithm devised by Herbert Kociemba.
-* Instead of a solution move sequence, the generator can be shown, i.e. the move
-  sequence that gives a cube pattern instead of solving it.
-* A solution/generator sequence can be played back.
-* The orientation of the cube's face centres can be made visible, i.e. the
-  supergroup is used.
-* The cube can be edited, i.e. the pieces can be rearranged to form any preset
-  pattern. The colour scheme may also be changed.
-* Any move sequence can be typed in and shown on the cube.
-* Play can be restricted to one of 4 subgroups of the cube, namely the Square
-  group (half turns only), the Slice group, the Anti-Slice group, or the
-    two-generator group (R and U faces only).
-* For each group it is always shown whether the current cube pattern lies within
-  it.
-* For each of the aforementioned subgroups there is an optimal solver, able to
-  give the shortest possible move sequence that solves (or generates) a position
-    in that group.
-* The type of symmetry of the current cube pattern can be shown.
-* The cube and its solution/generator sequence can be rotated or reflected in
-  every way.
-* The cube can be mixed randomly while still conforming to a particular symmetry
-  type.
-* Random pretty patterns can be generated easily.
+1. The cube is fully playable. Middle slices can be turned, as well as the whole
+   cube.
+1. The cube can be viewed in four ways, such as a fully 3D model, or as a flat
+   layout. The view can be switched at any time.
+1. It has a powerful built-in solver. It uses a simplified version of the
+   two-phase algorithm devised by Herbert Kociemba.
+1. Instead of a solution move sequence, the generator can be shown, i.e. the
+   move sequence that gives a cube pattern instead of solving it.
+1. A solution/generator sequence can be played back.
+1. The orientation of the cube's face centres can be made visible, i.e. the
+   supergroup is used.
+1. The cube can be edited, i.e. the pieces can be rearranged to form any preset
+   pattern. The colour scheme may also be changed.
+1. Any move sequence can be typed in and shown on the cube.
+1. Play can be restricted to one of 4 subgroups of the cube, namely the Square
+   group (half turns only), the Slice group, the Anti-Slice group, or the
+   two-generator group (R and U faces only).
+1. For each group it is always shown whether the current cube pattern lies
+   within it.
+1. For each of the aforementioned subgroups there is an optimal solver, able to
+   give the shortest possible move sequence that solves (or generates) a
+   position in that group.
+1. The type of symmetry of the current cube pattern can be shown.
+1. The cube and its solution/generator sequence can be rotated or reflected in
+   every way.
+1. The cube can be mixed randomly while still conforming to a particular
+   symmetry type.
+1. Random pretty patterns can be generated easily.
 
-## Installation Instructions
+## Build Instructions
 
 ### Install Java 6 on macOS
 
-[Install Multiple Java Versions](https://gist.github.com/ntamvl/5f4dbaa8f68e6897b99682a395a44c2e)
-
-[Configure jEnv](https://developer.bring.com/blog/configuring-jenv-the-right-way/)
+- [Install Multiple Java Versions](https://gist.github.com/ntamvl/5f4dbaa8f68e6897b99682a395a44c2e)
+- [Configure jEnv](https://developer.bring.com/blog/configuring-jenv-the-right-way/)
 
 ```sh
 brew tap homebrew/cask-versions
@@ -58,9 +79,9 @@ java -version
 
 **Note:** Restart your shell
 
-### Build
+### Build Cubie
 
-[macOS Compile Java](https://centerkey.com/mac/java/)
+- [Compile Java on macOS](https://centerkey.com/mac/java/)
 
 #### Compile and Run
 
